@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Calcu" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/light_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/light_navigation_bar_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CalculatorButton">
+        <item name="android:background">@drawable/circle_btn</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:textColor">@color/button_text</item> <!-- Ensure high contrast -->
+        <item name="android:textSize">29sp</item> <!-- Ensure the text is large enough -->
+        <item name="android:padding">8dp</item> <!-- Optional: for better touch area -->
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:shadowColor">@color/lite_dark</item>
+    </style>
+    <style name="Theme.Calcu" parent="Base.Theme.Calcu" />
+</resources>

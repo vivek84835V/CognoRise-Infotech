@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_backgroundTint">#92CA1579</color> <!-- Purple -->
+    <color name="button_text">#070606</color> <!-- White -->
+    <color name="shadow">#C31F1F</color>
+    <color name="sky">#91DDCF</color>
+    <color name="cream">#F7F9F2</color>
+    <color name="pink_cream">#E8C5E5</color>
+    <color name="pink">#F19ED2</color>
+
+<!--   //Separate color-->
+    <color name="dark">#222831</color>
+    <color name="lites_dark">#393E46</color>
+    <color name="sky1">#00ADB5</color>
+    <color name="White_cream">#EEEEEE</color>
+
+    <!--   //Separate color-->
+    <color name="back">#bdeb42</color>
+    <color name="back_dark">#527a1c</color>
+    <color name="black_back">#0c0b10</color>
+    <color name="lite_dark">#393E46</color>
+
+
+    <color name="light_status_bar_color">@color/back_dark</color> <!-- Example: White color for light status bar -->
+    <color name="light_navigation_bar_color">@color/dark</color> <!-- Example: White color for light navigation bar -->
+
+    <!-- Dark Theme Colors -->
+    <color name="dark_status_bar_color">@color/back_dark</color> <!-- Example: Black color for dark status bar -->
+    <color name="dark_navigation_bar_color">@color/dark</color>
+</resources>

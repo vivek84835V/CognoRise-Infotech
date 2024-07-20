@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme attributes for dark mode -->
+        <item name="android:statusBarColor">@color/dark_status_bar_color</item>
+        <item name="android:navigationBarColor">@color/dark_navigation_bar_color</item>
+        <!-- Other theme attributes -->
+    </style>
+
+</resources>
